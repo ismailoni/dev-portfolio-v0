@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google"
 import "./globals.css";
-import next from "next";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
 import AnimatedCursor from "react-animated-cursor";
