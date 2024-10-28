@@ -44,21 +44,21 @@ function About() {
             <div data-aos='zoom-in' data-aos-delay='150' data-aos-anchor-placement='top-center' className='grid grid-cols-2 gap-16 items-center lg:mx-auto'>
                 {/* 1st Stat  */}
                 <div>
-                    <Image src='/images/customer.png' alt='image' width={80} height={80} className='mx-auto' />
+                    <Image src='customer.png' alt='image' width={80} height={80} className='mx-auto' />
                     <p className='mt-3 font-bold text-xl text-white text-center'>{aboutInfo.client}</p>
                     <p className='text-base sm:text-lg text-gray-400 text-center'>Satisfied Customers</p>
                 </div>
 
                 {/* 2nd Stat  */}
                 <div>
-                    <Image src='/images/experience.png' alt='image' width={80} height={80} className='mx-auto' />
+                    <Image src='experience.png' alt='image' width={80} height={80} className='mx-auto' />
                     <p className='mt-3 font-bold text-xl text-white text-center'>{aboutInfo.experience}</p>
                     <p className='text-base sm:text-lg text-gray-400 text-center'>Years Experience</p>
                 </div>
 
                 {/* 3rd Stat  */}
                 <div>
-                    <Image src='/images/completed.png' alt='image' width={80} height={80} className='mx-auto' />
+                    <Image src='completed.png' alt='image' width={80} height={80} className='mx-auto' />
                     <p className='mt-3 font-bold text-xl text-white text-center'>{aboutInfo.project}</p>
                     <p className='text-base sm:text-lg text-gray-400 text-center'>Completed Projects</p>
                 </div>
@@ -66,7 +66,7 @@ function About() {
 
                 {/* 4th Stat  */}
                 <div>
-                    <Image src='/images/rocket.png' alt='image' width={80} height={80} className='mx-auto' />
+                    <Image src='rocket.png' alt='image' width={80} height={80} className='mx-auto' />
                     <p className='mt-3 font-bold text-xl text-white text-center'>{aboutInfo.website}</p>
                     <p className='text-base sm:text-lg text-gray-400 text-center'>Website Launched</p>
                 </div>
