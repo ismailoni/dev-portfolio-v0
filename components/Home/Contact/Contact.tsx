@@ -1,4 +1,3 @@
-import SectionHeading from '@/components/Helper/SectionHeading'
 import React from 'react'
 import ContactForm from './ContactForm'
 import ContactInfo from './ContactInfo'
